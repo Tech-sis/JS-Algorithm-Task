@@ -3,7 +3,7 @@
 function convertFahrToCelsius(F) {
     if (!isNaN(F) === false) {
         if (Array.isArray(F)) {
-            return JSON.stringify(F) + ` is not a valid number but an array`
+            return JSON.stringify(F) + ` is not a valid number but a/an array`
         }
         return JSON.stringify(F) + ` is not a valid number but a/an ${typeof F}`
     }
